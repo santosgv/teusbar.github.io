@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --vermelho:#b30808;
+    --preta:#141414;
+    --branco:#fff;
+    --cinza:#aaa;
+}
+
+
+.img-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0.50)100%),url('../acessts/img/fundo.jpg');
+    background-attachment:fixed;
+    height: 700px;
+    width: 100%;
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.img-segundo{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0.50)100%),url('../acessts/img/fundo2.jpg');
+    background-attachment:fixed;
+    height: 100%;
+    width: 100%;
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.principal{
+    color: var(--branco);
+}
+
+.carrocel img {
+    height: 300px;
+    width: 100%;
+}
+
+.backgroud{
+    background-color: #080000;
+}
